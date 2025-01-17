@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Module 4 HTML Assignment</title>
+  
+</head>
+<main>
+<body>
+    <header>
+        <nav>
+            <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+          <!-- Sections with corresponding IDs -->
+  <h1>Welcome</h1>
+<section id="home">
+  <h2>Home</h2>
+  <p>Welcome to our homepage!</p>
+
+  <h1><strong>Packages</strong></h1>
+  <table>
+    <tr>
+      <th><strong>|package 1|</strong></th>
+      <th><strong>|package 2|</strong></th> 
+      <th><strong>|package 3|></strong></th>
+    </tr>
+    <tr>
+      <td>dinner for two</td>
+      <td>massage couples session</td>
+      <td>butler access for a week</td>
+    </tr>
+    <tr>
+      <td>hotel and flight accomadations</td>
+      <td>vip access to nightclub </td>
+      <td>gymclub access during stay</td>
+    </tr>  
+    <tr>
+      <td>theme park vip tickets</td>
+      <td>gift card to hotel store</td>
+      <td>executiove suite accomadations</td>
+    </tr>
+  </table>
+</section>
+
+<section id="about">
+  <h2>About</h2>
+  <p>we are working on practicing our coding skillsd=</p>
+
+  <img style= "box-shadow:0px 0px 10px" src=" https://placehold.co/300x200" alt="placeholder image" width="300" height="200" >
+  
+  
+
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Contact information here.</p>
+</section>
+    </header>
+
+    <form action="/submit" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"   placeholder="Enter your name">
+      
+        <label for=" email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+        <p>how did you hear about us</p>
+        <div>
+              <input type="radio" id="social media" name="source" value="social media">
+              <label for="social media" style="margin-right: 20px;">social media</label>
+        
+              <input type="radio" id="source" name="source" value="google">
+              <label for="google">google</label>
+        </div>
+        <label for="message">Message:</label>
+        <textarea id="Message" name="Message" placeholder="Enter your Message" rows="4" cols="50"></textarea>
+
+        <input type="submit" value="Submit">
+      </form>
+
+
+</body>
+</main>
+</html>
